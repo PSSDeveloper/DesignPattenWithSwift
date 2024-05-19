@@ -16,6 +16,10 @@
 		9A1D159A2BF5E2E2001588D7 /* designpattern.json in Resources */ = {isa = PBXBuildFile; fileRef = 9A1D15992BF5E2E2001588D7 /* designpattern.json */; };
 		9A1D159D2BF5E483001588D7 /* DPTypeDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1D159C2BF5E483001588D7 /* DPTypeDataModel.swift */; };
 		9A1D159F2BF5E533001588D7 /* DPPatternViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1D159E2BF5E533001588D7 /* DPPatternViewModel.swift */; };
+		9A4CA7DB2BF9C2EA009D0A87 /* BuilderPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4CA7DA2BF9C2EA009D0A87 /* BuilderPattern.swift */; };
+		9A81E45C2BF5F6220008ED5D /* SingletonPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A81E45B2BF5F6220008ED5D /* SingletonPattern.swift */; };
+		9A81E45E2BF5F9360008ED5D /* FactoryMethodPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A81E45D2BF5F9360008ED5D /* FactoryMethodPattern.swift */; };
+		9A81E4602BF602010008ED5D /* AbstractFactoryMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A81E45F2BF602010008ED5D /* AbstractFactoryMethod.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +34,10 @@
 		9A1D15992BF5E2E2001588D7 /* designpattern.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = designpattern.json; sourceTree = "<group>"; };
 		9A1D159C2BF5E483001588D7 /* DPTypeDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DPTypeDataModel.swift; sourceTree = "<group>"; };
 		9A1D159E2BF5E533001588D7 /* DPPatternViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DPPatternViewModel.swift; sourceTree = "<group>"; };
+		9A4CA7DA2BF9C2EA009D0A87 /* BuilderPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuilderPattern.swift; sourceTree = "<group>"; };
+		9A81E45B2BF5F6220008ED5D /* SingletonPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingletonPattern.swift; sourceTree = "<group>"; };
+		9A81E45D2BF5F9360008ED5D /* FactoryMethodPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoryMethodPattern.swift; sourceTree = "<group>"; };
+		9A81E45F2BF602010008ED5D /* AbstractFactoryMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractFactoryMethod.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +70,7 @@
 		9A1D15842BF5ADC8001588D7 /* DesignPattern */ = {
 			isa = PBXGroup;
 			children = (
+				9A81E45A2BF5F5C70008ED5D /* Pattern */,
 				9A1D159B2BF5E424001588D7 /* Model */,
 				9A1D15992BF5E2E2001588D7 /* designpattern.json */,
 				9A1D15852BF5ADC8001588D7 /* AppDelegate.swift */,
@@ -82,6 +91,17 @@
 				9A1D159E2BF5E533001588D7 /* DPPatternViewModel.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		9A81E45A2BF5F5C70008ED5D /* Pattern */ = {
+			isa = PBXGroup;
+			children = (
+				9A81E45B2BF5F6220008ED5D /* SingletonPattern.swift */,
+				9A81E45D2BF5F9360008ED5D /* FactoryMethodPattern.swift */,
+				9A81E45F2BF602010008ED5D /* AbstractFactoryMethod.swift */,
+				9A4CA7DA2BF9C2EA009D0A87 /* BuilderPattern.swift */,
+			);
+			path = Pattern;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,8 +178,12 @@
 			files = (
 				9A1D158A2BF5ADC8001588D7 /* ViewController.swift in Sources */,
 				9A1D159D2BF5E483001588D7 /* DPTypeDataModel.swift in Sources */,
+				9A81E45C2BF5F6220008ED5D /* SingletonPattern.swift in Sources */,
+				9A81E4602BF602010008ED5D /* AbstractFactoryMethod.swift in Sources */,
 				9A1D159F2BF5E533001588D7 /* DPPatternViewModel.swift in Sources */,
 				9A1D15862BF5ADC8001588D7 /* AppDelegate.swift in Sources */,
+				9A81E45E2BF5F9360008ED5D /* FactoryMethodPattern.swift in Sources */,
+				9A4CA7DB2BF9C2EA009D0A87 /* BuilderPattern.swift in Sources */,
 				9A1D15882BF5ADC8001588D7 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
